@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49ee0372-a688-4224-bb11-3a8924b26c25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineParamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/LionParamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/read.me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Lion.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.CatTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.FelineTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.LionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.CatTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.FelineTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.LionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28vyjgoIdGJkeZJyUQREZF25FQ7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/cygwin64/home/Qwesar/qa_java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LionTest.testGetFood">
+    <configuration name="FelineTest.testEatMeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
+      <option name="METHOD_NAME" value="testEatMeat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FelineTest.testGetKittens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
+      <option name="METHOD_NAME" value="testGetKittens" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FelineTest.testGetKittensa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
+      <option name="METHOD_NAME" value="testGetKittensa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
+      <option name="METHOD_NAME" value="getFood" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionTest.testGetFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
+      <option name="METHOD_NAME" value="testGetFood" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LionTest.testGetFood" />
+        <item itemvalue="JUnit.LionTest.getFood" />
+        <item itemvalue="JUnit.FelineTest.testEatMeat" />
+        <item itemvalue="JUnit.FelineTest.testGetKittens" />
+        <item itemvalue="JUnit.FelineTest.testGetKittensa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49ee0372-a688-4224-bb11-3a8924b26c25" name="Changes" comment="" />
+      <created>1652111491534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652111491534</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
