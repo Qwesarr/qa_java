@@ -7,11 +7,11 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class LionAlexTest {
+public class AlexLionTest {
 
     LionAlex alex = new LionAlex();
 
-    public LionAlexTest() throws Exception {
+    public AlexLionTest() throws Exception {
     }
 
     //Поверка сколько детей у Алекса
