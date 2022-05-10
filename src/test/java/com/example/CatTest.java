@@ -17,13 +17,8 @@ import java.util.List;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest {
 
-    @Rule
-    public MockitoRule mockitoRule = MockitoJUnit.rule();
-
-    //Замаскируем класс кошачьих
-    @Mock
-    private Feline feline;
-
+    @Rule public MockitoRule mockitoRule = MockitoJUnit.rule();
+    @Mock Feline feline; //Замаскируем класс кошачьих
     Cat cat;
 
     //Создаем котика перед каждым тестом
@@ -41,7 +36,15 @@ public class CatTest {
     //Проверяем что кошка кушает
     @Test
     public void testGetFood() throws Exception {
-        Mockito.when(feline.eatMeat()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
+        Mockito.when(feline.eatMeat()).thenReturn(List.of("Животные", "Птицы", "Рыба"));  //Так как класс замокирован, то передаем параметры при обращении к классу.
         Assert.assertEquals(cat.getFood(), List.of("Животные", "Птицы", "Рыба"));
     }
+
+    // Проверяем, что при запросе подходящей еды, вызывается метод eatMeat класса "Кошачьи" feline
+    @Test
+    public void testGetFoodFeline() throws Exception {
+        cat.getFood();
+        Mockito.verify(feline, Mockito.times(1)).eatMeat();
+    }
+
 }

@@ -1,5 +1,6 @@
 package com.example;
 
+import org.jetbrains.annotations.TestOnly;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
@@ -16,10 +17,8 @@ import java.util.List;
 @RunWith(MockitoJUnitRunner.class)
 public class FelineTest {
 
-    @Rule
-    public MockitoRule mockitoRule = MockitoJUnit.rule();
-
-    //@Mock
+    @Rule public MockitoRule mockitoRule = MockitoJUnit.rule();
+    @Mock Feline felineMok; //Новый, замокрированный экземпляр класса Feline для проверки внутренних методов
     Feline feline;
 
 
@@ -38,7 +37,6 @@ public class FelineTest {
     //Что едят кошачьи
     @Test
     public void testEatMeat() throws Exception {
-        System.out.println(feline.eatMeat());
         Assert.assertEquals(feline.eatMeat(),List.of("Животные", "Птицы", "Рыба"));
     }
 
@@ -46,12 +44,12 @@ public class FelineTest {
     @Test
     public void testGetKittens() {
         Assert.assertEquals(feline.getKittens(),1);
-      //  Mockito.verify(feline, Mockito.times(1)).getKittens(1);
     }
 
+    //Проверяем, что при вызове метода getKittens() без параметров, вызывается метод getKittens(1) с параметром "1"
     @Test
-    public void testGetKittensa() {
-        feline.getKittens(1);
-        Mockito.verify(feline, Mockito.times(1)).getKittens(1);
+    public void testGetKittensParam() {
+        felineMok.getKittens(1);
+        Mockito.verify(felineMok, Mockito.times(1)).getKittens(1);
     }
 }

@@ -1,9 +1,10 @@
 package com.example;
 
+import java.security.PublicKey;
 import java.util.List;
 
 public class Lion {
-    Feline feline;
+    public Feline feline;
     boolean hasMane;
 
 

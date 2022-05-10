@@ -10,8 +10,7 @@ import org.junit.runners.Parameterized;
 public class FelineParamsTest {
 
     Feline feline;
-    @Parameterized.Parameter(0)
-    public int kittensCount;
+    @Parameterized.Parameter(0) public int kittensCount;
 
     //Список значений для проверки возможного кол.ва котят
     @Parameterized.Parameters
